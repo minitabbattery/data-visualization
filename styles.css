@@ -3,8 +3,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://github.com/minitabbattery/data-visualization/blob/main/image.jpg'); 
-    background-repeat: repeat; /* Repeat texture */
+    background-image: url('https://github.com/minitabbattery/data-visualization/raw/main/image.jpg'); 
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire background */
+    background-position: center center; /* Center the background image */
 }
 
 header {
