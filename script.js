@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 Temp6: [],
                 Temp7: [],
                 Temp8: [],
-		Temp9: [],
+                Temp9: [],
                 Temp10: []
             };
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function plotMultipleCharts(labels, tempData) {
-    const numCharts = 10; // 4 rows x 2 columns = 8 charts
+    const numCharts = 10; // 5 rows x 2 columns = 10 charts
     const chartsContainer = document.getElementById("charts-container");
     const chartWidth = 600; // Set the width of each chart canvas
     const chartHeight = 400; // Set the height of each chart canvas
