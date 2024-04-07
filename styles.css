@@ -4,31 +4,18 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-image: url('https://github.com/minitabbattery/data-visualization/blob/main/image.jpg'); 
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-    background-size: cover; /* Cover the entire background */
-    background-position: center center; /* Center the background image */
+    background-repeat: repeat; /* Repeat texture */
 }
 
 header {
-    background-color: #0000F1; /* Blue color for header */
-    color: #FFFF; /* White text color */
+    background-color: #0000FF; /* Dark blue color for header */
+    color: #FFFFFF; /* White text color */
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
     border-radius: 10px; /* Rounded corners for header */
 }
-
-header h1 {
-    font-size: 2em; /* Larger font size for header text */
-    margin-bottom: 10px; /* Additional spacing below header text */
-}
-
-header p {
-    font-size: 1.2em; /* Larger font size for subtext */
-    font-style: italic; /* Italic style for subtext */
-}
-
 
 /* Increased spacing between charts for a less cluttered feel */
 #charts-container {
