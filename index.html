@@ -3,19 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Website</title>
-<style>
-body {
-    background-image: url('https://github.com/minitabbattery/data-visualization/blob/main/image.jpg');
-    background-size: cover; /* Adjust as needed */
-    /* Additional background properties */
-}
-</style>
+<title>Data Visualization</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is some content on the page.</p>
-    <!-- Other HTML content -->
+<div class="container">
+    <h1>Data Visualization</h1>
+    <div class="form-container">
+        <label for="jsonFileSelect">Select JSON file:</label>
+        <select id="jsonFileSelect"></select>
+        <button id="loadDataBtn">Load Data</button>
+    </div>
+    <div class="form-container">
+        <label for="columnSelect">Select Column:</label>
+        <select id="columnSelect"></select>
+        <button id="plotChartBtn">Plot Chart</button>
+    </div>
+    <div class="charts-container">
+        <canvas id="plotChart" width="800" height="400"></canvas>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-
