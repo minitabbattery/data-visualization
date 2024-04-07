@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('path_to_your_texture_image.jpg'); /* Add texture background */
+    background-image: url('https://github.com/minitabbattery/data-visualization/blob/main/image.jpg'); 
     background-repeat: repeat; /* Repeat texture */
 }
 
