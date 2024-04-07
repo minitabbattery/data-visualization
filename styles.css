@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db; /* Blue background for the header */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#charts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Spacing between charts */
+    justify-items: center; /* Center charts horizontally */
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Space on left and right */
+}
+
+canvas {
+    background-color: #fff; /* White background for charts */
+    border-radius: 5px; /* Rounded corners for charts */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for charts */
+}
